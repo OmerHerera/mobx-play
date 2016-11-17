@@ -2,6 +2,8 @@ import { observable } from 'mobx';
 
 class AppState {
   @observable timer = 0;
+  @observable userInput = '';
+  @observable text = 'aaa';
 
   constructor() {
     setInterval(() => {
